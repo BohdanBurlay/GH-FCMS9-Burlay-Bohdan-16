@@ -1,0 +1,72 @@
+@mixin center-block-mixin{
+  max-width: 79%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+@mixin section-title{
+  text-align: center;
+  color: #576671;
+  font-family: $Raleway;
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+@mixin section-paragraf{
+  text-align: center;
+  font-family: $Roboto;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+  margin-top: 40px;
+  color: #576671;
+}
+@mixin link-styles{
+  max-width: 183px;
+  width: 100%;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background-color: #17daa3;
+  color: #ffffff;
+  font-family: "Raleway",sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0.35px;
+  padding: 0;
+  display: block;
+  margin: 107px auto 0 auto;
+}
+@mixin article-mixin{
+  color: #87949e;
+  font-family:$Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.45px;
+  max-width: 717px;
+  float: right;
+  margin-right: 102px;
+}
+@mixin article-title-mixin{
+  color: #576671;
+  font-family: $Raleway;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 96px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-left: 180px;
+}
+@mixin current-slide-mixin{
+  margin: 70px auto 0 auto;
+  display: flex;
+  max-width: 130px;
+}
+@mixin current-slide-item-mixin{
+  width: 10px;
+  height: 10px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-left: 13px;
+  cursor: pointer;
+}

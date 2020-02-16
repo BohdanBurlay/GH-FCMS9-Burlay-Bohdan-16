@@ -1,0 +1,51 @@
+.region-menu{
+  display: flex;
+  float: right;
+  max-width: 900px;
+  width: 100%;
+  margin: 60px auto 0 auto;
+}
+.block-block-content71de4f53-90a5-4715-a837-9f2e21c21fae{
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu--alecto{
+  display: flex;
+  &>li{
+    margin-left: 68px;
+    &:nth-child(1){
+      margin-left: 0;
+    }
+    &>a{
+      font-family: $Raleway;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+.region-header{
+  background-image: url("../../src/img/Slice_1.jpg");
+  padding-top: 60px;
+  background-size: cover;
+  padding-bottom: 800px;
+}
+.field--label{
+  display: none;
+}
+.field--name-field-image{
+  display: block;
+  max-width: 108px;
+  height: 27px;
+}
+.navbar-brand {
+  display: none;
+}
+.pull-left{
+  display: none;
+}
+

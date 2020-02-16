@@ -1,0 +1,35 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'gh'
+description: 'A Drupal Bootstrap 3 based sub-theme.'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  header: 'Header'
+  logo: 'logo'
+  menu: 'menu'
+  about_us: 'about_us'
+  section_art: 'section_art'
+  test_region: 'test_region'
+  about_us_1: 'about_us_1'
+  about_us_2: 'about_us_2'
+  about_us_3: 'about_us_3'
+  about_us_4: 'about_us_4'
+  low_about_us : 'low_about_us'
+  second_section_art: 'second_section_art'
+  member_slider_section: 'member_slider_section'
+  our_services: 'our_services'
+  our_services_block_1: 'our_services_block_1'
+  our_services_block_2: 'our_services_block_2'
+  our_services_block_3: 'our_services_block_3'
+  our_services_block_4: 'our_services_block_4'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  bootstrap/framework:
+    - gh/framework
